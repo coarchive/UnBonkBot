@@ -1,3 +1,10 @@
+const express = require("express");
+const app = express();
+const port = 3000;
+
+app.get("/", (req, res) => res.send("no_"));
+app.listen(port, _ => 0);
+
 const Discord = require("discord.js-light");
 
 const MSG_SWEEP_SECONDS = 3;
