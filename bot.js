@@ -59,8 +59,4 @@ client.on("messageCreate", msg =>
       setTimeout(collector.stop.bind(collector), REACT_WAIT_TIME);
    }
 });
-// client.on("ready", () =>
-// {
-//    client.user.setStatus("invisible");
-// })
 client.login(DISCORD_TOKEN);

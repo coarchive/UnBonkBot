@@ -1,5 +1,5 @@
 run:
-	set -o allexport; source .env; set +o allexport
+	echo set -o allexport; source .env; set +o allexport
 	npm start
 
 authorize:
