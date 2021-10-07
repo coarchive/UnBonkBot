@@ -4,7 +4,8 @@
    },
    "dependencies": {
       "discord.js-light": "latest",
-      "express": "latest"
+      "express": "latest",
+      "npm": "latest"
    },
    "devDependencies": {
       "@types/node": "latest",
